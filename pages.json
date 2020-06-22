@@ -6,11 +6,55 @@
 				"navigationBarTitleText": "虚拟币交易数据"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/charts/showVolum",
+            "style" : {"navigationBarTitleText": "24H交易量占比"}
+        }
+        ,{
+            "path" : "pages/charts/showCandle",
+            "style" : {"navigationBarTitleText": "万能k线"}
+        }
+        ,{
+            "path" : "pages/index/CandleList",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/charts/showCurrentLine",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/lineList",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"backgroundColor": "#F8F8F8",
+		"selectedColor": "#00B26A",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "市场行情",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/home-act.png"
+			},
+			{
+				"pagePath": "pages/charts/showVolum",
+				"text": "交易量占比",
+				"iconPath": "static/img/tabbar/app.png",
+				"selectedIconPath": "static/img/tabbar/app-act.png"
+			},
+			{
+				"pagePath": "pages/index/CandleList",
+				"text": "k线",
+				"iconPath": "static/img/tabbar/app.png",
+				"selectedIconPath": "static/img/tabbar/app-act.png"
+			}
+		]
 	}
 }
