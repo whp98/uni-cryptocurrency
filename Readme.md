@@ -20,3 +20,8 @@ https://github.com/whp98/uni-cryptocurrency
 4.建议添加简单的撮合交易功能可以后台实现也可以前端实现实现简单的模拟炒币
 
 5.如果有star的话，以上4点本人主动修复/实现
+
+### 项目依赖
+- uni-app 框架
+- ucharts 图表包
+- coincap.io API

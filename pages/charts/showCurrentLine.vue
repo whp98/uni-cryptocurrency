@@ -45,6 +45,9 @@
 		onShow(){
 			this.timer = setInterval(this.changeData, this.timeforflush);
 		},
+		onDestroy(){
+			clearInterval(this.timer);
+		},
 		onLoad(e) {
 			if(e.coin){
 				this.coin=e.coin;
