@@ -15,16 +15,16 @@
             "style" : {"navigationBarTitleText": "万能k线"}
         }
         ,{
-            "path" : "pages/index/CandleList",
-            "style" : {}
-        }
-        ,{
             "path" : "pages/charts/showCurrentLine",
-            "style" : {}
+            "style" : {"navigationBarTitleText": "当前交易价格"}
         }
         ,{
             "path" : "pages/index/lineList",
-            "style" : {}
+            "style" : {"navigationBarTitleText": "实时交易数据"}
+        }
+        ,{
+            "path" : "pages/index/exchangeList",
+            "style" : {"navigationBarTitleText": "交易所信息"}
         }
     ],
 	"globalStyle": {
@@ -50,8 +50,14 @@
 				"selectedIconPath": "static/img/tabbar/app-act.png"
 			},
 			{
-				"pagePath": "pages/index/CandleList",
-				"text": "k线",
+				"pagePath": "pages/index/lineList",
+				"text": "实时价格折线",
+				"iconPath": "static/img/tabbar/app.png",
+				"selectedIconPath": "static/img/tabbar/app-act.png"
+			},
+			{
+				"pagePath": "pages/index/exchangeList",
+				"text":"交易所信息",
 				"iconPath": "static/img/tabbar/app.png",
 				"selectedIconPath": "static/img/tabbar/app-act.png"
 			}

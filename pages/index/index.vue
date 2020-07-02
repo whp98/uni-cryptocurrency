@@ -98,6 +98,12 @@
 			this.submsg();
 
 		},
+		onShow(){
+			this.submsg()
+		},
+		onHide() {
+			uni.closeSocket({});
+		},
 		methods: {
 			showcandle(e) {
 				console.debug(e);
